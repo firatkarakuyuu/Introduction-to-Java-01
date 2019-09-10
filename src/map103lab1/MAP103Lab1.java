@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package map103lab1;
-
-/**
- *
- * @author 19062772
- */
-public class MAP103Lab1 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+package temperatureconverter;
+import java.util.Scanner;
+public class TemperatureConverter {
+public static void main( String args[] ) {
+Scanner in = new Scanner(System.in);
+System.out.print("Enter temperature in Celsius: ");
+int Celcius = in.nextInt();     
+    int i = 0;
+int Fahrenheit = Celcius * ((9*i) / 5) + 32;    
+System.out.println(Celcius + " degree Celsius is equal to " + Fahrenheit +" degree Fahrenheit.");    
+}
 }
